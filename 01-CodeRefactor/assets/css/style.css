@@ -7,7 +7,8 @@
 body {
     background-color: #d9dcd6;
 }
-
+ /* Added the 'display' property for displaying the content properly. */
+ /* Used the 'display: inline-block' in all  header class */
 .header {
     display: inline-block;
     width: 100%; 
@@ -20,7 +21,7 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .header h1 .seo {
@@ -31,6 +32,7 @@ body {
     float: right;
 }
 
+/* Used the 'display: inline-block' for displaying the content in line in the header section. */
 .nav_link li {
     display: inline-block;
     font-size: 20px;
@@ -48,7 +50,9 @@ a {
 p {
     font-size: 16px;
 }
+
 /* Background image section*/
+/* Added 'height' and width for showing the background picture as per screen resolution. */
 #back_img {
     height: 100%;
     width: 100%;
@@ -61,7 +65,7 @@ p {
 /* completed background image section*/
 
 /* Article section */
-
+/* Added some css style from the bottom  for better Practice and understanding. */
 .content {
     width: 75%;
     display: inline-block;
